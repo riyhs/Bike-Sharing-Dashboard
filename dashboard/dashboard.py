@@ -6,7 +6,7 @@ import streamlit as st
 sns.set(style='dark')
 st.set_page_config(page_title="Bike Sharing Dataset Analysis")
 
-df = pd.read_csv('day.csv')
+df = pd.read_csv('dashboard\day.csv')
 
 # Sidebar
 st.sidebar.title("Bike Sharing Dataset Analysis")
